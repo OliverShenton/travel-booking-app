@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Booking System</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Travel Booking</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <button id="dark-mode-toggle">Dark Mode</button>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2>Plan Your Next Adventure</h2>
+      <p>Discover amazing places at the right price.</p>
+      <div class="search-bar">
+        <input type="text" placeholder="Where to?" id="destination" />
+        <input type="date" id="checkin" />
+        <input type="date" id="checkout" />
+        <input type="number" placeholder="Budget ($)" id="budget" />
+        <button onclick="search()">Search</button>
+      </div>
+    </section>
+
+    <main>
+      <section id="featured-destinations" class="reveal">
+        <h3>Featured Destinations</h3>
+        <div class="destinations-container"></div>
+      </section>
+      <div id="pagination" class="pagination-container"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Travel Booking by Oliver Shenton</p>
+      <button id="back-to-top">Back to top</button>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

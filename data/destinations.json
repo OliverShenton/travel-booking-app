@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Paris",
+    "price": 1200,
+    "rating": 4.8,
+    "image": "paris.jpg",
+    "description": "Experience the romantic city of lights."
+  },
+  {
+    "id": 2,
+    "name": "New York",
+    "price": 1500,
+    "rating": 4.6,
+    "image": "new-york.jpg",
+    "description": "The city that never sleeps awaits you."
+  },
+  {
+    "id": 3,
+    "name": "Tokyo",
+    "price": 1400,
+    "rating": 4.7,
+    "image": "tokyo.jpg",
+    "description": "Discover the vibrant culture of Japan."
+  }
+]
